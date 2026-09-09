@@ -9,7 +9,7 @@ from tqdm import tqdm
 # ==============================Labeled Data/Multinodular goiter/EXTRACTED_THYROID
 input_root = r"C:\Users\PMLS\Documents\Thyroid\All Data\relable\Normal\EXTRACTED_THYROID"
 output_root = r"C:\Users\PMLS\Documents\Thyroid\All Data\relable\Normal\png"
-image_size = 224
+image_size = 320
 save_format = ".png"   # ".png" or ".jpg"
 projection_method = "max"  # "max" for MIP, "mean" for average projection
 
