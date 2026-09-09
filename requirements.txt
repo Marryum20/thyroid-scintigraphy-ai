@@ -1,0 +1,17 @@
+```text
+numpy
+pandas
+opencv-python
+pydicom
+Pillow
+matplotlib
+scikit-learn
+torch
+torchvision
+timm
+streamlit
+pytorch-grad-cam
+seaborn
+tqdm
+```
+
