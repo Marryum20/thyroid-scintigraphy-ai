@@ -59,14 +59,14 @@ The project evaluates transfer-learning-based deep neural networks, including:
 
 ## 📈 Results
 
-The best-performing model achieved approximately:
+## Model Performance
 
-| Metric           |     Result |
-| ---------------- | ---------: |
-| Overall Accuracy | **89.15%** |
-| Mean Sensitivity | **90.33%** |
-| Mean Specificity | **97.22%** |
-| Mean F1-Score    | **88.91%** |
+| Model          | Accuracy | 95% Confidence Interval |
+| -------------- | -------: | ----------------------: |
+| DenseNet-201   |  **91%** |             88.76–93.11 |
+| ConvNeXt Tiny  |  **92%** |             89.94–94.05 |
+| ConvNeXt Small |  **90%** |             87.92–92.43 |
+| ResNet-50      |  **89%** |             85.43–90.38 |
 
 Temporal validation using **258 previously unseen images** achieved approximately **91% accuracy**, indicating promising performance on recent clinical imaging data.
 
